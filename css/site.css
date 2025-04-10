@@ -23,14 +23,14 @@ h1 {
 #content {
   margin: 10px;
   padding: 10px;
-  border: solid 1px #888;
-  background-color: #84B59F;
+  border: solid 1px #8797ca;
+  background-color: #6ae6ae;
 }
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
   padding: 10px;
   margin-bottom: 10px;
-  border: solid 1px #888;
-  background-color: #A3C9A8;
+  border: solid 1px #81aee9;
+  background-color: #58d6b7;
 }
