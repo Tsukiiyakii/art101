@@ -4,12 +4,13 @@
 
 /* we can select an html element tag, in this case "body" will apply to the whole document */
 body {
-  background-color: #50808E;
+  background-color: #000000;
 }
 
 /* we can have rules apply to multiple elements at the same time with commas */
 h1,h2,h3 {
-  font-family: sans-serif;
+  font-family:monospace;
+  -webkit-text-fill-color: #423012;
 }
 
 /* and we can have rules that overlap other rules, both take effect */
@@ -17,20 +18,21 @@ h1 {
   letter-spacing: 5px;
   word-spacing: 5px;
   font-size: 200%;
+ 
 }
 
 /* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
 #content {
   margin: 10px;
   padding: 10px;
-  border: solid 1px #8797ca;
-  background-color: #6ae6ae;
+  border: solid 1px #000000;
+  background-color: #c0a342;
 }
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
   padding: 10px;
   margin-bottom: 10px;
-  border: solid 1px #81aee9;
-  background-color: #58d6b7;
+  border: solid 1px #000000;
+  background-color: #571616;
 }
