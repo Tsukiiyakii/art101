@@ -1,2 +1,2 @@
-<img id="my-portrait" src="IMG_4063.JPG"> 
-image = pygame.image.load('IMG_4063.JPG')
+<img id="my-portrait" src="c:\Users\Alyssa\Downloads\IMG_4063.JPG"> 
+c:\Users\Alyssa\Downloads\IMG_4063.JPG
