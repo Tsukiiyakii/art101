@@ -1,0 +1,2 @@
+<img id="my-portrait" src="IMG_4063.JPG"> 
+image = pygame.image.load('IMG_4063.JPG')
