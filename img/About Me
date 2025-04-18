@@ -1,2 +1,4 @@
-<img id="my-portrait" src="IMG_4063.img">
-<img src="IMG_4063.img/"> alt 
+<img id="my-portrait" src="IMG_4063.JPG">
+<img src="IMG_4063.JPG"> alt
+width: 500px
+
