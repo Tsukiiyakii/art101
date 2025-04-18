@@ -4,13 +4,13 @@
 
 /* we can select an html element tag, in this case "body" will apply to the whole document */
 body {
-  background-color: #000000;
+  background-color: #6c8bce;
 }
 
 /* we can have rules apply to multiple elements at the same time with commas */
 h1,h2,h3 {
   font-family:monospace;
-  -webkit-text-fill-color: #423012;
+  -webkit-text-fill-color: #000000;
 }
 
 /* and we can have rules that overlap other rules, both take effect */
