@@ -6,7 +6,7 @@ Date: 12 May 2025
 Lincense: Public Domain
 */
 // add buttom to challenge section
-$("#challenge").apend("<button id='button-challenge'>Make Special</button>");
+$("#challenge").append("<button id='button-challenge'>Make Special</button>");
 // add a click listner to the challenge button 
 $("#button-challenge").click(function(){
   // now add (or subtract) the "special" class to the section
