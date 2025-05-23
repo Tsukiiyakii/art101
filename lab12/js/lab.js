@@ -4,47 +4,37 @@
 // Date: 22 May
 // Lincense: Public Domain
 */
-let variants = ["Hoth", "Tatooine", "Naboo", "Alderaan", "Coruscant", "Kamino", "The Death Star"];
-function getPlanet(num) {
-let remainder = num % 7;
-let planet = variants [remainder];
-// Append the text
-$("#output"). append(" you are from " + planet +".<br>");
-// Define background image paths
-let backgroundImages = {
-"Hoth": "url('img/hoth.png')",
-"Tatooine": "url('img/tatooine.png')",
-"Alderaan" : "url('img/alderaan.png')",
-"Naboo": "url('img/naboo.png')",
-"Coruscant": "url('img/coruscant.png')",
-"Kamino": "url('img/Kamino.png')",
-"The Death Star": "url('img/thedeathstar-png')"
-};
-// Apply the background image
-$("#output").css({
-"background-image": backgroundImages [planet],
-"background-size": "cover",
-"background-position": "center",
-"color": "white",
-"padding": "Opx"
-});
-}
-function whatHappensOnClick() {
-console. log("click");
 
-let data = $("#input").val();
-let dataLength = data. length;
+// given a number, return a Hogwart's houses
+//
+function getHouse (num) {
+// Get the remainder when divided by 4
+let remainder = num % 4;
+let str = "";
+// Assign Tolkien houses with descriptions based on the remainder
+if (remainder = 0) {
+str = "House of Elrond: Known for wisdom, leadership, and the sanctuary of Rivendell.";
+} else if (remainder == 1) {
+str = "House of Durin: A lineage of strength, endurance, and the heart of dwarven lore.";
+} else if (remainder = 2) {
+str = "House of Beren: Celebrated for courage, perseverance, and an unyielding love for Lúthien.";
+} else if (remainder == 3) {
+str = "House of Feanor: A house of ambition, brilliance, and the creator of the Silmarils.";
+}
+return str;
+}
 
-if (data && dataLength <= 15) {
-$("#output") -append (data) ;
-getPlanet (dataLength) ;
-console. log ("There is some data");
-} else if (dataLength >= 15) {
-$("#output").append("Just enter your first name<br>");
-}
-}
-$(document) - ready(function() {
-$("#button"). click(function () {
-  whatHappensOnClick();
-});
+// attach click handler to submit button
+$("#button") .click(function(){
+// get the value in the #input text box, asign to a varaiable name
+let name = $("#input").val()
+console. log (name) ;
+// get the length of the name
+let nameLength = name. length;
+console. log (nameLength);
+// get the house
+let house = getHouse (nameLength) ;
+console. log (house);
+// add house to output div
+$("#output" ).html("<h1>" + house + "</h1>");
 })
