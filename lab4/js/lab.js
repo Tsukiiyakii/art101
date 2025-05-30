@@ -2,6 +2,25 @@
 // Author: Your Name
 // Date:
 
+/**
+// Rock_Paper_Scissors
+// An implementation of the game
+// Alyssa Yuen <almyuen@ucsc.edu>
+// April 2024
+ * Rock Paper Scissors.
+ *
+ * A simple game. 
+ */
+/** jshint {inline configuration here} */
+//Get player one input 
+//Get player two input
+//Compare the two
+	//Rock beats scissors 
+	//Paper beats rock
+	//Scissors beats paper
+//Output the victor
+
+
 // Constants
 
 // Functions
