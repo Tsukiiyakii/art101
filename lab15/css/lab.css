@@ -1,0 +1,55 @@
+body {
+   font-family: Arial, sans-serif;
+   margin: 30px;
+   background:  #1f87a1;
+
+
+}
+h1, h2 {
+   color: #000000;
+}
+#output {
+   margin-top: 20px;
+   padding: 10px;
+   background: #a5e4e0;
+   border: 1px solid #ddd;
+}
+button {
+   margin-top: 10px;
+   padding: 8px 16px;
+   background: #81160c;
+   color: #fff;
+   border: none;
+   cursor: pointer;
+}
+input {
+   padding: 8px;
+   width: 200px;
+}
+
+
+
+
+/* General box style for each section */
+#challenge, #problems, #results {
+ background: #a5e4e0;
+ border: 2px solid #26084b;
+ border-radius: 10px;
+ padding: 20px;
+ margin-bottom: 25px;
+ box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+
+/* Optional: Make the boxes stand out a bit more */
+#challenge {
+ border-color: #bff5e0;
+}
+#problems {
+ border-color:  #bff5e0;
+}
+#results {
+ border-color:  #bff5e0;
+}
+
+
